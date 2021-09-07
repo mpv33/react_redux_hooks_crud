@@ -1,9 +1,23 @@
 export interface SystemState {
-   
-        contactList: {
-            data: any,
-            loader: boolean,
-           error: any
-        }  
-  
-}
+    
+        tutorials: {
+            tutorials: {
+                data: any,
+                loader: boolean
+            };
+            createTutorial: {
+                data: any,
+                loader: boolean
+            };
+            updateTutorial:{
+                data: any,
+                loader: boolean
+            };
+            deleteTutorial:{
+                data: any,
+                loader: boolean
+            };
+        }
+        
+    }
+    

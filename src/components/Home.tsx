@@ -20,10 +20,14 @@ function Home(props: any) {
   }
   return (
     <div>
-      <h3> Hey Welcome in Contact Crud App  </h3>
+      <h3> Hey Welcome in Redux Crud App  </h3>
       <Link to="/contact" className="col-md-2 btn btn-outline-dark my-1 ml-auto">
-        Lets Move on  Contact Page
+        Lets Move on  Contact CRUD without Api
       </Link> <br />
+      <Link to="/tutorial" className="col-md-2 btn btn-outline-dark my-1 ml-auto">
+        Lets Move on  Tutorial Crud with Api
+      </Link> <br />
+
       <Link to="/unauth" className="col-md-2 btn btn-outline-dark my-1 ml-auto">
         Lets Move on  unauth Page
       </Link>  <br />
