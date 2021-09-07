@@ -15,7 +15,11 @@ const TutorialHome = () => {
 
     dispatch(getAll())
 
-  }, [dispatch,contacts]);
+  }, []);
+
+  useEffect(()=>{
+
+  },[contacts])
 
   const deleteContact = (id: any) => {
     dispatch(remove(id))
