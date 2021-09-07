@@ -1,5 +1,5 @@
 # Getting Started with Create React App
-# CRUD NODE : need to start server before starting react app 
+# CRUD NODE : need to start server and config your db before starting react app 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
