@@ -11,8 +11,11 @@ const Navbar = () => {
         <Link to={"/contact"} className="navbar-brand ml-5">
            Contact Book | CRUD
         </Link>
-        <Link to={"/tutorial"} className="navbar-brand ml-5">
+        {/* <Link to={"/tutorial"} className="navbar-brand ml-5">
            Tutorial | CRUD
+        </Link> */}
+        <Link to={"/admin"} className="navbar-brand ml-5">
+           Admin UI | CRUD
         </Link>
         <Link to={"/unauth"} className="navbar-brand ml-5">
            UnProtected Page

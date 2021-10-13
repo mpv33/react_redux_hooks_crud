@@ -1,3 +1,3 @@
 module.exports = {
-  url: "mongodb+srv:// db url"
+  url: "mongodb+srv:"
 };

@@ -10,6 +10,8 @@ import Navbar from "./components/Navbar";
 import "./App.css";
 import GuardeRoute from './GuardeRoute';
 import UnProtected from "./UnProtected";
+import AdminHome from "./components/admin/AdminHome";
+import AddUser from "./components/admin/AddUser";
 
 const App = () => {
   const [isAutheticated, setisAutheticated] = useState(false);
@@ -23,10 +25,13 @@ const App = () => {
       <Route exact path="/unauth" component={() => <UnProtected />} />
       <GuardeRoute exact path="/contact"  auth={isAutheticated} component={() => <ContactHome />} />
       <GuardeRoute exact path="/tutorial"  auth={isAutheticated} component={() => <TutorialHome />} />
+      <GuardeRoute exact path="/admin"  auth={isAutheticated} component={() => <AdminHome />} />
       <Route exact path="/contact/add" component={() => <AddPost />} />
       <Route exact path="/contact/edit/:id" component={() => <AddPost />} />
       <Route exact path="/tutorial/add" component={() => <AddTutorial />} />
       <Route exact path="/tutorial/edit/:id" component={() => <AddTutorial />} />
+      <Route exact path="/admin/add" component={() => <AddUser />} />
+      <Route exact path="/admin/edit/:id" component={() => <AddUser />} />
     </div>
   );
 };

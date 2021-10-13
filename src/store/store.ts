@@ -17,6 +17,7 @@
 
 
  import { contactReducer } from "./contact/contact.Reducer";
+ import { adminReducer } from "./admin/contact.Reducer";
  import tutorialReducer from './tutorial/tutorial.Reducer'
 import { devToolsEnhancer } from 'redux-devtools-extension'
 import {
@@ -32,7 +33,8 @@ import thunk from 'redux-thunk';
 const appReducer = combineReducers({
 
   tutorials:tutorialReducer,
-contactReducer
+contactReducer,
+adminReducer
 });
 
 const rootReducer = (state: any, action: any) => {

@@ -24,8 +24,11 @@ function Home(props: any) {
       <Link to="/contact" className="col-md-2 btn btn-outline-dark my-1 ml-auto">
         Lets Move on  Contact CRUD without Api
       </Link> <br />
-      <Link to="/tutorial" className="col-md-2 btn btn-outline-dark my-1 ml-auto">
+      {/* <Link to="/tutorial" className="col-md-2 btn btn-outline-dark my-1 ml-auto">
         Lets Move on  Tutorial Crud with Api
+      </Link> <br /> */}
+      <Link to="/admin" className="col-md-2 btn btn-outline-dark my-1 ml-auto">
+        Lets Move on  Admin UI
       </Link> <br />
 
       <Link to="/unauth" className="col-md-2 btn btn-outline-dark my-1 ml-auto">
